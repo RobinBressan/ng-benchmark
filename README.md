@@ -61,7 +61,7 @@ Benchmarks look like this:
     "compile": "timestamp",
     "link": "array of timestamps",
     "ready": "timestamp",
-    "load": "timestamp (only for element with load event like images)""
+    "load": "timestamp (only for element with load event like images)"
 }
 ```
 
