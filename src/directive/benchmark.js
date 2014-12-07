@@ -12,6 +12,8 @@ define(function(require) {
             compile: function(element, attrs, transclude) {
                 benchmarkName = attrs['benchmark'];
 
+                var benchs;
+
                 if (!benchmarks.get(benchmarkName)) {
                     benchs = [];
                     benchmarks.put(benchmarkName, benchs);
