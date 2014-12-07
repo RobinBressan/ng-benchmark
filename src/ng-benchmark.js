@@ -4,8 +4,6 @@ define(function(require) {
 
     var module = angular.module('ngBenchmark', []);
 
-    // module.factory('$n', require('service/n'));
-
     module.directive('benchmark', require('directive/benchmark'));
 
     return module;
