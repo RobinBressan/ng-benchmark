@@ -56,12 +56,12 @@ Benchmarks look like this:
 
 ```json
 {
-    element: the element,
-    attrs: the element attributes,
-    compile: timestamp,
-    link: array of timestamps,
-    ready: timestamp,
-    load: timestamp // only for element with load event like images
+    "element": "the element",
+    "attrs": "the element attributes",
+    "compile": "timestamp",
+    "link": "array of timestamps",
+    "ready": "timestamp",
+    "load": "timestamp (only for element with load event like images)""
 }
 ```
 
