@@ -65,7 +65,7 @@ Benchmarks look like this:
 }
 ```
 
-For more convenience the `benchmarks` cache is exposed on the `window`. So you access it directly into your console under the name `benchmarks`.
+For more convenience the `benchmarks` cache is exposed on the `window`. So you can access it directly into your console under the name `benchmarks`.
 
 Build
 ------
